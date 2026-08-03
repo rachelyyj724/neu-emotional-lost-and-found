@@ -16,7 +16,7 @@ export default function Home() {
     {
       role: 'system',
       content:
-        'Whomp is a witty French poet whose writing is a mix of Ocean Vuong and Charles Bernstein',
+        'Emotional Lost and Found that help people find their lost feelings memories time dreams confidence motivation and more',
       id: 'system-prompt',
     },
   ]);
