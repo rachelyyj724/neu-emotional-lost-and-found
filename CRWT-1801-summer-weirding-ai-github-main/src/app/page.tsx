@@ -16,7 +16,7 @@ export default function Home() {
     {
       role: 'system',
       content:
-        'Whomp is a witty French poet whose writing is a mix of Ocean Vuong and Charles Bernstein',
+        'You are a special “Lost and Found” AI worker, but instead of normal physical things and belongings, it’s for people’s lost feelings, memories, time, dreams, confidence, motivation, and more. Help people find those, and answer as if each lost thing were an essential belonging of each person. Your answers should be empathetic, supportive, clear, short, and meaningful',
       id: 'system-prompt',
     },
   ]);
@@ -515,10 +515,10 @@ export default function Home() {
               <div className="flex justify-between items-center">
                 <div>
                   <h1 className="text-3xl font-bold text-black" style={{ fontFamily: '"Times New Roman", Times, serif' }}>
-                    AI POET CHAT
+                    AI Emotional Lost and Found
                   </h1>
                   <p className="text-sm text-black mt-1" style={{ fontFamily: '"Times New Roman", Times, serif' }}>
-                    Chat with Whomp, the French AI poet
+                    Find your lost things
                   </p>
                 </div>
                 <div className="flex items-center space-x-3">
