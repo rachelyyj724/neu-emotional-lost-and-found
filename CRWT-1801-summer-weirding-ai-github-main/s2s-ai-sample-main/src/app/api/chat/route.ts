@@ -11,7 +11,7 @@ export async function POST(request: Request) {
     const { messages } = await request.json();
 
     const completion = await openai.chat.completions.create({
-      model: 'rachelyyj724-c8f0/emotionallostandfound',
+      model: 'rachelyyj724-c8f0/Qwen3.5-9B-cbf765da',
       messages,
       stream: false,
     });
