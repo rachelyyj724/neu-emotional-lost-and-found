@@ -515,7 +515,7 @@ export default function Home() {
               <div className="flex justify-between items-center">
                 <div>
                   <h1 className="text-3xl font-bold text-black" style={{ fontFamily: '"Times New Roman", Times, serif' }}>
-                    AI Emotional Lost and Found
+                    AI EMOTIONAL LOST AND FOUND
                   </h1>
                   <p className="text-sm text-black mt-1" style={{ fontFamily: '"Times New Roman", Times, serif' }}>
                     Find your lost things
